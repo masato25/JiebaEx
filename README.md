@@ -5,4 +5,4 @@
 [x] dictionary reader <br>
 [x] word comparison <br>
 [x] custom dictionary <br>
-[x] real new word add 
+[x] new word add on run time 
