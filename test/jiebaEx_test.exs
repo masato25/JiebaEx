@@ -8,7 +8,8 @@ defmodule JiebaExTest do
 
   test "test cut" do
     alias Analyse.JiebaEEx
-    temp_res = JiebaEx.cut("這是測試")
+    temp_res = JiebaEEx.cut("這是測試")
+    IO.inspect temp_res
     assert hd(temp_res) == ["這","是","測","試"]
   end
 

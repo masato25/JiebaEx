@@ -17,10 +17,9 @@ defmodule Analyse.JiebaEEx do
   end
 
   @doc """
-  DAG/1
   將文字做暴力破解取出match的結果
   """
-  def DAG(sentence_set) do
+  def dag(sentence_set) do
     words_set = []
     for sentence <- sentence_set do
       for s <- sentence do
